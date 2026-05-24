@@ -26,7 +26,7 @@ export default function ResetPassword() {
   };
 
   const backToLoginPage = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   return (
