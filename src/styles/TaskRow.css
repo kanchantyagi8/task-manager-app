@@ -1,0 +1,99 @@
+.task-row {
+  transition: background-color 0.2s ease;
+}
+
+.task-row:hover {
+  background-color: #f9fafb;
+}
+
+.task-title {
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.task-status {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.task-status.completed {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.task-status.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.task-button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.task-button:hover {
+  transform: translateY(-1px);
+}
+
+.task-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.toggle-button {
+  background-color: #2563eb;
+}
+
+.toggle-button:hover {
+  background-color: #1d4ed8;
+}
+
+.edit-button {
+  background-color: #7c3aed;
+}
+
+.edit-button:hover {
+  background-color: #6d28d9;
+}
+
+.delete-button {
+  background-color: #dc2626;
+}
+
+.delete-button:hover {
+  background-color: #b91c1c;
+}
+
+.save-button {
+  background-color: #059669;
+}
+
+.save-button:hover {
+  background-color: #047857;
+}
+
+.edit-task-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-task-input {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  width: 220px;
+}
+
+.edit-task-input:focus {
+  border-color: #2563eb;
+}

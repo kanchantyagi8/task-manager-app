@@ -1,0 +1,175 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: var(--bg);
+  padding: 40px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  color: var(--text-h);
+  margin-bottom: 8px;
+}
+
+.user-detail {
+  text-align: left;
+}
+
+.dashboard-welcome {
+  color: var(--text);
+  font-size: 15px;
+}
+
+.dashboard-welcome span {
+  font-weight: 600;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dashboard-button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+  color: white;
+}
+
+.dashboard-button:hover {
+  transform: translateY(-1px);
+}
+
+.dashboard-button.primary {
+  background-color: #2563eb;
+}
+
+.dashboard-button.primary:hover {
+  background-color: #1d4ed8;
+}
+
+.dashboard-button.secondary {
+  background-color: #6b7280;
+}
+
+.dashboard-button.secondary:hover {
+  background-color: #4b5563;
+}
+
+.dashboard-button.danger {
+  background-color: #dc2626;
+}
+
+.dashboard-button.danger:hover {
+  background-color: #b91c1c;
+}
+
+.create-task-card {
+  background-color: var(--code-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.dashboard-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.dashboard-input:focus {
+  border-color: #2563eb;
+}
+
+.task-section {
+  background-color: var(--code-bg);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.task-section-title {
+  margin-bottom: 20px;
+  color: var(--text-h);
+  width: max-content;
+}
+
+.task-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.loading-text,
+.empty-task-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 15px;
+  padding: 20px;
+}
+
+/* filter bar css  */
+
+.search-container {
+  position: relative;
+}
+
+.task-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  margin-bottom: 20px;
+}
+
+.task-section-title {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  flex: 1;
+  max-width: 400px;
+  width: 400px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+}
