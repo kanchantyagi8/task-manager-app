@@ -21,7 +21,7 @@ export default function Register() {
   };
 
   const backToLoginPage = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   const disableRegisterButton = () => {

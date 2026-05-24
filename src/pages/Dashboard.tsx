@@ -39,6 +39,7 @@ export default function Dashboard() {
 
   const handleLogout = () => {
     logout();
+    navigate("/");
   };
 
   const checkUserProfile = () => {
